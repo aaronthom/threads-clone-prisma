@@ -4,8 +4,8 @@
             <div class="mx-auto max-w-[500px] overflow-hidden">
                 <div id="Posts" class="px-4 max-w-[600px] mx-auto">
 
-                    <div class="text-white" v-if="isPosts" v-for="post in posts" :key="post">
-                        {{ post }}
+                    <div v-if="isPosts" v-for="post in posts" :key="post">
+                        <Post :post="post" @isDeleted="post = []" />
                     </div>
                 </div>
             </div>
@@ -26,9 +26,9 @@ let isLoading = ref(false)
 onBeforeMount(() => {
     posts.value = [
         {
-            name: 'John Weeks Dev',
+            name: 'Tom Ate Banane',
             image: 'https://placehold.co/100',
-            text: 'This is the title',
+            text: 'Threads Post Title',
             picture: 'https://placehold.co/500',
         }
     ]
