@@ -27,9 +27,33 @@ onBeforeMount(() => {
     posts.value = [
         {
             name: 'Tom Ate Banane',
-            image: 'https://placehold.co/100',
-            text: 'Threads Post Title',
-            picture: 'https://placehold.co/500',
+            image: 'https://picsum.photos/id/289/50',
+            text: 'Das hier ist mein Threads Post Titel, na klar...',
+            picture: 'https://picsum.photos/id/99/1000',
+        },
+        {
+            name: 'Riesen Kobold',
+            image: 'https://picsum.photos/id/189/50',
+            text: 'Ihr glaub nicht was mir heute passiert ist...',
+            picture: 'https://picsum.photos/id/203/1000',
+        },
+        {
+            name: 'Feuerwehrmann3',
+            image: 'https://picsum.photos/id/79/50',
+            text: 'Hach jaaaa... hach jaa wie herrlich.... hachjaaaaaaaaaaaaaaaaaaaaaaaaa',
+            picture: 'https://picsum.photos/id/199/1000',
+        },
+        {
+            name: 'Septimencrusher',
+            image: 'https://picsum.photos/id/89/50',
+            text: 'Von welchem Tier stammen wohl diese Fußabdrücke? (Hmm, denkender Smiley)',
+            picture: 'https://picsum.photos/id/299/1000',
+        },
+        {
+            name: 'Freter Pahm Coaching',
+            image: 'https://picsum.photos/id/12/50',
+            text: 'Die gute Natur erhöht euer Testosteron. Tschüss und Grüße.',
+            picture: 'https://picsum.photos/id/10/1000',
         }
     ]
 })
