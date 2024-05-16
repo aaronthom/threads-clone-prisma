@@ -8,10 +8,15 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@vite-pwa/nuxt',
   ],
+  supabase: {
+    redirect: false,
+  },
+  devtools: { 
+    enabled: false
+  },
   runtimeConfig: {
     public: {
       bucketUrl: process.env.BUCKET_URL
     }
   },
-  devtools: { enabled: false }
 })
